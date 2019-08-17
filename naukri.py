@@ -28,4 +28,4 @@ elem = driver.find_element_by_xpath("//*[@class='mb10']/a")
 elem.click()
 filepath = "C://Users//ganesh//Documents//chaithu2019_17-Mar-19_21_08_16.doc"
 driver.find_element_by_xpath("//*[@class='uploadContainer']/input").send_keys(filepath)
-driver.find_element_by_xpath('//html/body/button').click()
+
